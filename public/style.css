@@ -1,0 +1,121 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#f4f6f8;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+.app{
+width:500px;
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 5px 20px rgba(0,0,0,0.1);
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin-bottom:20px;
+}
+
+h1{
+font-size:22px;
+}
+
+.dark-btn{
+border:none;
+background:#333;
+color:white;
+padding:6px 10px;
+border-radius:5px;
+cursor:pointer;
+}
+
+.task-form{
+display:flex;
+gap:10px;
+margin-bottom:20px;
+}
+
+.task-form input{
+flex:1;
+padding:10px;
+border:1px solid #ddd;
+border-radius:6px;
+}
+
+.add-btn{
+background:#4CAF50;
+border:none;
+color:white;
+padding:10px 15px;
+border-radius:6px;
+cursor:pointer;
+}
+
+.add-btn:hover{
+background:#43a047;
+}
+
+ul{
+list-style:none;
+}
+
+li{
+background:#fafafa;
+border:1px solid #eee;
+padding:12px;
+border-radius:6px;
+margin-bottom:10px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.task-info{
+display:flex;
+flex-direction:column;
+}
+
+.task-title{
+font-weight:bold;
+}
+
+.delete-btn{
+background:#e53935;
+border:none;
+color:white;
+padding:6px 10px;
+border-radius:5px;
+cursor:pointer;
+}
+
+.delete-btn:hover{
+background:#c62828;
+}
+
+/* Dark Mode */
+
+.dark{
+background:#121212;
+color:white;
+}
+
+.dark .app{
+background:#1e1e1e;
+}
+
+.dark li{
+background:#2a2a2a;
+border:none;
+}

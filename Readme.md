@@ -1,4 +1,4 @@
-# 📝 Task Manager Pro
+# 📝 Task Manager Pro - App
 
 A modern **Task Manager web application** built with a **TypeScript-based Node.js backend**, **PostgreSQL database**, and a clean **TailwindCSS frontend**.
 
